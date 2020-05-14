@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+body {
+  margin: 0px;
+  font-family: 'DM Mono', monospace;
+  background-color: rgba(230, 230, 260, 1);
+}
+
+.header {
+  background-color: rgba(164, 164, 184, 0.856);
+  height: 12  0px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-bottom:solid darkRed 2px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 55px;
+  margin-left: 80px;
+  float: left;
+}
+
+ul {
+  text-align: right;
+  margin: 40px 60px;
+  margin-top: 30px;
+}
+
+.menu {
+  display: inline-block;  
+}
+
+li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px;
+  color: #222222;
+  background-color: rgba(230, 230, 260, 0.1);
+  border: solid 1px rgb(158, 157, 157);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+li > a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px;
+  color: #222222;
+  background-color: rgba(230, 230, 260, 0.8);
+  border: solid 1px white;
+  border-radius: 5px;
+  margin: 5px;  
+}
+
+#me {
+  border-radius: 60px;
+  margin-left: 50px;
+  float: left;
+}
+  
+#me2 {
+  border-radius: 30px;
+}
+
+.span {
+  text-transform: capitalize;
+  counter-reset: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.post-title {
+  
+  padding: 10px;
+  margin: auto;
+}
+
+.post-content {
+  background-color: whitesmoke;
+  border: solid lightGray 1px;
+  padding: 10px;
+  margin: auto;
+}
+
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  border: solid 1px;
+}
+
+.about-content {
+  background-color: rgba(200, 200, 220, 0.3);
+  border: solid lightGray 1px;
+  padding: 10px;
+  margin: auto;
+}
+
+.post-author img {
+  height: 80px;
+  width: 80px;
+  vertical-align: middle;
+}
+
+.post-author span {
+  margin-left: 16px;
+  font-size: 18px;
+  letter-spacing: 0.2;
+  font-weight: bold;
+}
+
+.post-date {
+  color: #6e6e6e;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1;
+}
+
+.about {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: rgba(81, 81, 92, 0.856); 
+  margin-top: 30px;
+  padding: 50px;
+  border-top:solid darkRed 2px;
+}
+
+.column {
+  display: inline-block;
+  min-width: 300px;
+  vertical-align: top;
+}
+
+.column p {
+  color: white;
+}
+
+.column a {
+  text-decoration: none;
+}
+
+h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
